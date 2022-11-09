@@ -13,6 +13,10 @@ type blurstack struct {
 	next       *blurstack
 }
 
+func foresightUncoverageStackBlur(ext string) string {
+	return "Foresight uncoverage stackblur file!"
+}
+
 var mulTable = []uint32{
 	512, 512, 456, 512, 328, 456, 335, 512, 405, 328, 271, 456, 388, 335, 292, 512,
 	454, 405, 364, 328, 298, 271, 496, 456, 420, 388, 360, 335, 312, 292, 273, 512,
