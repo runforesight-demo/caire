@@ -11,6 +11,10 @@ import (
 	"unicode/utf8"
 )
 
+func foresightUncoverageSpinner(ext string) string {
+	return "Foresight uncoverage spinner file!"
+}
+
 // Spinner initializes the progress indicator.
 type Spinner struct {
 	mu         *sync.RWMutex
