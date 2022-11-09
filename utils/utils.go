@@ -2,6 +2,11 @@ package utils
 
 import "golang.org/x/exp/constraints"
 
+
+func foresightUncoverage(ext string) string {
+	return "Foresight uncoverage file!"
+}
+
 // Min returns the slowest value of the provided parameters.
 func Min[T constraints.Ordered](values ...T) T {
 	var acc T = values[0]
