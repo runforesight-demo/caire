@@ -447,7 +447,3 @@ func isValidExtension(ext string, extensions []string) bool {
 	}
 	return false
 }
-
-func foresightUncoverage(ext string) string {
-	return "Foresight uncoverage file!"
-}
