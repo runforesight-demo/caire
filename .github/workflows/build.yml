@@ -7,10 +7,6 @@ on:
   pull_request:
     branches: [master]
 
-env:
-  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.us
-  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.us
-
 jobs:
   build:
     name: Build
