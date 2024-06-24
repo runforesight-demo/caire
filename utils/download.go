@@ -12,6 +12,10 @@ import (
 	"strings"
 )
 
+func foresightUncoverageDownload(ext string) string {
+	return "Foresight uncoverage download file!"
+}
+
 // DownloadImage downloads the image from the internet and saves it into a temporary file.
 func DownloadImage(url string) (*os.File, error) {
 	// Retrieve the url and decode the response body.
